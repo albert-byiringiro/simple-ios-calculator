@@ -5,67 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple iOS Calculator</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+    <div class="calc">
+        <section class="screen">0</section>
+        <section class="calc-buttons">
+            <div class="calc-button-row">
+                <button class="calc-button double">C</button>
+                <button class="calc-button">←</button>
+                <button class="calc-button">÷</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">7</button>
+                <button class="calc-button">8</button>
+                <button class="calc-button">9</button>
+                <button class="calc-button">×</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">4</button>
+                <button class="calc-button">5</button>
+                <button class="calc-button">6</button>
+                <button class="calc-button">-</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">1</button>
+                <button class="calc-button">2</button>
+                <button class="calc-button">3</button>
+                <button class="calc-button">+</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button triple">0</button>
+                <button class="calc-button">=</button>
+            </div>
+        </section>
+    </div>
+    <script src="/js/script.js"></script>
 </body>
-<div class="page">
-    <div class="result-field">
-        <!-- manipulate the result text here -->
-    </div>
-    <div class="operation-set">
-        <div class="operator op-clear">
-            <button>C</button>
-        </div>
-        <div class="operator op-back">
-            <button><-< /button>
-        </div>
-        <div class="operator op-division">
-            <button>&divide;</button>
-        </div>
-        <div class="operator op-seven">
-            <button>7</button>
-        </div>
-        <div class="operator op-eight">
-            <button>8</button>
-        </div>
-        <div class="operator op-nine">
-            <button>9</button>
-        </div>
-        <div class="operator op-times">
-            <button>&times;</button>
-        </div>
-        <div class="operator op-4">
-            <button>4</button>
-        </div>
-        <div class="operator op-5">
-            <button>5</button>
-        </div>
-        <div class="operator op-6">
-            <button>6</button>
-        </div>
-        <div class="operator op-minus">
-            <button>&minus;</button>
-        </div>
-        <div class="operator op-1">
-            <button>1</button>
-        </div>
-        <div class="operator op-2">
-            <button>2</button>
-        </div>
-        <div class="operator op-3">
-            <button>3</button>
-        </div>
-        <div class="operator op-add">
-            <button>&plus;</button>
-        </div>
-        <div class="operator op-zero">
-            <button>0</button>
-        </div>
-        <div class="operator op-equals">
-            <button>&equals;</button>
-        </div>
-    </div>
-</div>
 
 </html>
